@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$light-cyan: hsl(193, 38%, 86%);
+$neon-green: hsl(150, 100%, 66%);
+$grayish-blue: hsl(217, 19%, 38%);
+$dark-grayish-blue: hsl(217, 19%, 24%);
+$dark-blue: hsl(218, 23%, 16%);
+
+body {
+  background-color: $dark-blue;
+}
+
+.card-color {
+  background-color: $dark-grayish-blue;
+  border-color: $dark-grayish-blue;
+  color: $light-cyan;
+}
+
+.heading-color {
+  color: $neon-green;
+}
+
+.dice-color {
+  background-color: $neon-green;
+}
+
+.dice-color:hover {
+  background-color: hsl(150, 95%, 55%) !important;
+  box-shadow: 0 0 10px 5px rgba(150, 255, 150, 0.5);
+}
